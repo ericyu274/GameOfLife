@@ -1,3 +1,4 @@
+import processing.core.PApplet;
 import de.bezier.guido.*;
   public final static int numrows = 20;
   public final static int numcols = 20;
