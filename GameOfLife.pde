@@ -6,12 +6,8 @@ import de.bezier.guido.*;
   private boolean[][] buffer; //2d array of booleans to store state of buttons array
   private boolean running = true; //used to start and stop program
 
-  public void settings() {
-    size(400, 400);
-  }
-
   public void setup () {
-    
+    size(400,400);
     frameRate(6);
     // make the manager
     Interactive.make( this );
